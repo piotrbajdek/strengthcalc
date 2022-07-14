@@ -20,9 +20,9 @@ strengthcalc remains in an early development phase and more functionalities may 
 
 Jiménez, A. and De Paz, J.A. 2008. Application of the 1RM estimation formulas from the RM in bench press in a group of physically active middle-aged women. _J. Hum. Sport Exerc._ 3 (1): 10–22.
 
-LeSuer, D.A, McCormick, J.H., Mayhew, J.L., Wasserstein, R.L. and Arnold, M.D. 1997. The accuracy of prediction equations for estimating 1-RM performance in the bench press, squat, and deadlift. _J. Strength and Cond. Res._ 11 (4): 211-213.
+LeSuer, D.A, McCormick, J.H., Mayhew, J.L., Wasserstein, R.L. and Arnold, M.D. 1997. The accuracy of prediction equations for estimating 1-RM performance in the bench press, squat, and deadlift. _J. Strength and Cond. Res._ 11 (4): 211–213.
 
-Mayhew, J.L., Ball, T.E., Arnold, M.D., and Bowen, J.C. 1992. Relative muscular endurance performance as a predictor of bench press strength in college men and women. _J. Appl. Sports Sci. Res._ 6 (4): 200-206.
+Mayhew, J.L., Ball, T.E., Arnold, M.D., and Bowen, J.C. 1992. Relative muscular endurance performance as a predictor of bench press strength in college men and women. _J. Appl. Sports Sci. Res._ 6 (4): 200–206.
 
 Wathen, D. 1994. Load assignment. In: T.R. Baechle (Ed.), _Essentials of strength training and conditioning_, pp. 435–446. Champaign, IL: Human Kinetics.
 
@@ -36,13 +36,13 @@ Wathen, D. 1994. Load assignment. In: T.R. Baechle (Ed.), _Essentials of strengt
 
 # INSTALLATION ON LINUX
 
-[strengthcalc](https://github.com/piotrbajdek/strengthcalc) should run smoothly on Windows and macOS, and can be built by the use of any Fortran [compiler](https://fortran-lang.org/compilers/). Yet, it is being developed and tested using GNU Fortran Compiler (gfortran) on Fedora Linux.
+[strengthcalc](https://github.com/piotrbajdek/strengthcalc) should run smoothly on Windows and macOS, and can be built by the use of any Fortran [compiler](https://fortran-lang.org/compilers/). Yet, it is being developed and tested using GNU Fortran (gfortran) on Fedora Linux.
 
 ## METHOD 1
 
 **1.** Download and unpack the strengthcalc source from GitHub:
 
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.0-alpha
+https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.0
 
 **2.** Then, build the program by the use of gfortran:
 
@@ -60,7 +60,7 @@ _sudo cp strengthcalc /var/usrlocal/bin/_
 
 **1.** Download the binary 'strengthcalc' for Linux x86_64 from GitHub:
 
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.0-alpha
+https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.0
 
 **2.** Make the file executable:
 

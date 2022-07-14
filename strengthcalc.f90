@@ -1,4 +1,4 @@
-! STRENGTHCALC VERSION 0.1.0-ALPHA / THE MIT LICENSE (MIT) © 2022 PIOTR BAJDEK
+! STRENGTHCALC VERSION 0.1.0 / THE MIT LICENSE (MIT) © 2022 PIOTR BAJDEK
 
 program strengthcalc
 
@@ -77,7 +77,7 @@ contains
 
    subroutine about()
    print '(a,a,a,a)', 'Program:  ', ye, 'strengthcalc', reset
-   print '(a)', 'Version:  0.1.0-alpha'
+   print '(a)', 'Version:  0.1.0'
    print '(a)', 'Date:     July 14, 2022'
    print '(a)', 'Author:   Piotr Bajdek (Poland)'
    print '(a,a,a,a)', 'Contact:  ', bl, 'piotr.bajdek@proton.me', reset
@@ -135,14 +135,14 @@ contains
    print '(a)', ''
    print '(a)', 'Mayhew, J.L., Ball, T.E., Arnold, M.D. and Bowen, J.C. 1992. Relative muscular'
    print '(a)', 'endurance performance as a predictor of bench press strength in college men'
-   print '(a)', 'and women. J. Appl. Sports Sci. Res. 6 (4): 200-206.'
+   print '(a)', 'and women. J. Appl. Sports Sci. Res. 6 (4): 200–206.'
    print '(a)', ''
    print '(a)', 'Wathen, D. 1994. Load assignment. In: T.R. Baechle (Ed.), Essentials of'
    print '(a)', 'strength training and conditioning, pp. 435–446. Champaign, IL: Human Kinetics.'
    end subroutine models
 
    subroutine version()
-   print '(a,a,a,a)', 'Version: ', ye, '0.1.0-alpha', reset
+   print '(a,a,a,a)', 'Version: ', ye, '0.1.0', reset
    print '(a)', 'July 14, 2022'
    end subroutine version
 
