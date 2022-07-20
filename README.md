@@ -14,7 +14,7 @@ strengthcalc can be used by both females and males. Implemented models:
 
 – Wathen (1994) equation is used as it appears to be more accurate for the lower body (LeSuer et al. 1997).
 
-strengthcalc remains in an early development phase and more functionalities may be implemented soon.
+strengthcalc is considered deprecated in favour of [musclecalc](https://github.com/piotrbajdek/musclecalc), which has been rewritten from Fortran into Rust. Since [musclecalc](https://github.com/piotrbajdek/musclecalc) (in Rust) is where the further development occurs, strengthcalc (in Fortran) will no longer be maintained.
 
 **References:**
 
@@ -42,7 +42,7 @@ Wathen, D. 1994. Load assignment. In: T.R. Baechle (Ed.), _Essentials of strengt
 
 **1.** Download and unpack the strengthcalc source from GitHub:
 
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.1
+https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.2
 
 **2.** Then, build the program by the use of gfortran:
 
@@ -60,7 +60,7 @@ _sudo cp strengthcalc /var/usrlocal/bin/_
 
 **1.** Download the binary 'strengthcalc' for Linux x86_64 from GitHub:
 
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.1
+https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.2
 
 **2.** Make the file executable:
 
@@ -68,4 +68,4 @@ _sudo chmod +x ./strengthcalc_
 
 **3.** Install on your system as in Method 1 (3a, 3b).
 
-**4.** You may also need to install 'libgfortran' as a dependency, which library should be available in the repositories of your Linux distribution.
+**4.** You may also need to install 'libgfortran' as a dependency, which library should be available in the repository of your Linux distribution.

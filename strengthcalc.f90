@@ -1,4 +1,4 @@
-! STRENGTHCALC VERSION 0.1.1 / MIT LICENSE © 2022 PIOTR BAJDEK
+! STRENGTHCALC VERSION 0.1.2 / MIT LICENSE © 2022 PIOTR BAJDEK
 
 program strengthcalc
 
@@ -77,7 +77,7 @@ contains
 
    subroutine about()
    print '(a,a,a,a)', 'Program:  ', ye, 'strengthcalc', reset
-   print '(a)', 'Version:  0.1.1'
+   print '(a)', 'Version:  0.1.2'
    print '(a)', 'Date:     July 20, 2022'
    print '(a)', 'Author:   Piotr Bajdek (Poland)'
    print '(a,a,a,a)', 'Contact:  ', bl, 'piotr.bajdek@proton.me', reset
@@ -142,7 +142,7 @@ contains
    end subroutine models
 
    subroutine version()
-   print '(a,a,a,a)', 'Version: ', ye, '0.1.1', reset
+   print '(a,a,a,a)', 'Version: ', ye, '0.1.2', reset
    print '(a)', 'July 20, 2022'
    end subroutine version
 
@@ -160,9 +160,9 @@ contains
    call get_command_argument(3, arg3)
    read(arg1,*) mass
    read(arg3,*) reps
-   print *, 'Approximate 1RM (kg): ', ye, 100 * mass / (52.2 + 41.9 * exp (-0.055 * reps))
-   print *, gr, 'Max. weight you can load:', reset
-   print *, '1RM - body mass (kg): ', ye, 100 * mass / (52.2 + 41.9 * exp (-0.055 * reps)) - mass
+   write(*, '(a,a,F0.1)') 'Approximate 1RM (kg):    ', ye, 100 * mass / (52.2 + 41.9 * exp (-0.055 * reps))
+   print '(a,a,a)', gr, 'Max. weight you can load:', reset
+   write(*, '(a,a,F0.1)') '1RM - body mass (kg):    ', ye, 100 * mass / (52.2 + 41.9 * exp (-0.055 * reps)) - mass
    end subroutine pull_ups
 
 ! SQUATS
@@ -177,9 +177,9 @@ contains
    call get_command_argument(3, arg3)
    read(arg1,*) mass
    read(arg3,*) reps
-   print *, 'Approximate 1RM (kg): ', ye, 100 * mass / (48.8 + 53.8 * exp (-0.075 * reps))
-   print *, gr, 'Max. weight you can load:', reset
-   print *, '1RM - body mass (kg): ', ye, 100 * mass / (48.8 + 53.8 * exp (-0.075 * reps)) - mass
+   write(*, '(a,a,F0.1)') 'Approximate 1RM (kg):    ', ye, 100 * mass / (48.8 + 53.8 * exp (-0.075 * reps))
+   print '(a,a,a)', gr, 'Max. weight you can load:', reset
+   write(*, '(a,a,F0.1)') '1RM - body mass (kg):    ', ye, 100 * mass / (48.8 + 53.8 * exp (-0.075 * reps)) - mass
    end subroutine squats
 
 end program strengthcalc
