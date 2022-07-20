@@ -2,17 +2,17 @@
 
 [strengthcalc](https://github.com/piotrbajdek/strengthcalc) employs mathematical formulae from Mayhew et al. (1992) and Wathen (1994) to estimate the maximum weight one can lift in a single repetition of a physical exercise (known as 1RM: one repetition maximum). Calculations are based on (1) the body mass, (2) the exercise type, and (3) the maximum number of repetitions one is able to perform in a single set without an additional weight (i.e. with its own body mass).
 
-[keywords: bodybuilding, calisthenics, callisthenics, fitness, gym, street workout]
+[keywords: bodybuilding, calisthenics, callisthenics, fitness, gym, muscle strength, street workout]
 
 strengthcalc can be used by both females and males. Implemented models:
 
 **1. Pull-ups** (including chin-ups, will also work fine for dips and other upper-body exercises lifting the whole body)
 
-– Mayhew et al. (1992) equation is used as it appears more accurate for the upper body (LeSuer et al. 1997; Jiménez and De Paz 2008).
+– Mayhew et al. (1992) equation is used as it appears to be more accurate for the upper body (LeSuer et al. 1997; Jiménez and De Paz 2008).
 
 **2. Squats**
 
-– Wathen (1994) equation is used as it appears more accurate for the lower body (LeSuer et al. 1997).
+– Wathen (1994) equation is used as it appears to be more accurate for the lower body (LeSuer et al. 1997).
 
 strengthcalc remains in an early development phase and more functionalities may be implemented soon.
 
@@ -42,7 +42,7 @@ Wathen, D. 1994. Load assignment. In: T.R. Baechle (Ed.), _Essentials of strengt
 
 **1.** Download and unpack the strengthcalc source from GitHub:
 
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.0
+https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.1
 
 **2.** Then, build the program by the use of gfortran:
 
@@ -60,10 +60,12 @@ _sudo cp strengthcalc /var/usrlocal/bin/_
 
 **1.** Download the binary 'strengthcalc' for Linux x86_64 from GitHub:
 
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.0
+https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.1
 
 **2.** Make the file executable:
 
 _sudo chmod +x ./strengthcalc_
 
 **3.** Install on your system as in Method 1 (3a, 3b).
+
+**4.** You may also need to install 'libgfortran' as a dependency, which library should be available in the repositories of your Linux distribution.

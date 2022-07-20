@@ -1,4 +1,4 @@
-! STRENGTHCALC VERSION 0.1.0 / THE MIT LICENSE (MIT) © 2022 PIOTR BAJDEK
+! STRENGTHCALC VERSION 0.1.1 / MIT LICENSE © 2022 PIOTR BAJDEK
 
 program strengthcalc
 
@@ -77,12 +77,12 @@ contains
 
    subroutine about()
    print '(a,a,a,a)', 'Program:  ', ye, 'strengthcalc', reset
-   print '(a)', 'Version:  0.1.0'
-   print '(a)', 'Date:     July 14, 2022'
+   print '(a)', 'Version:  0.1.1'
+   print '(a)', 'Date:     July 20, 2022'
    print '(a)', 'Author:   Piotr Bajdek (Poland)'
    print '(a,a,a,a)', 'Contact:  ', bl, 'piotr.bajdek@proton.me', reset
    print '(a,a,a,a)', 'Source:   ', bl, 'https://github.com/piotrbajdek/strengthcalc', reset
-   print '(a)', 'License:  The MIT License (MIT) © 2022 Piotr Bajdek'
+   print '(a)', 'License:  MIT License © 2022 Piotr Bajdek'
    end subroutine about
 
    subroutine help()
@@ -101,7 +101,7 @@ contains
    end subroutine help
 
    subroutine license()
-   print '(a,a,a)', ye, 'The MIT License (MIT)', reset
+   print '(a,a,a)', ye, 'MIT License', reset
    print '(a)', ''
    print '(a)', 'Copyright © 2022 Piotr Bajdek'
    print '(a)', ''
@@ -142,8 +142,8 @@ contains
    end subroutine models
 
    subroutine version()
-   print '(a,a,a,a)', 'Version: ', ye, '0.1.0', reset
-   print '(a)', 'July 14, 2022'
+   print '(a,a,a,a)', 'Version: ', ye, '0.1.1', reset
+   print '(a)', 'July 20, 2022'
    end subroutine version
 
 ! CALCULATIONS
