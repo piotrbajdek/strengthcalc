@@ -2,7 +2,9 @@
 
 [strengthcalc](https://github.com/piotrbajdek/strengthcalc) employs mathematical formulae from Mayhew et al. (1992) and Wathen (1994) to estimate the maximum weight one can lift in a single repetition of a physical exercise (known as 1RM: one repetition maximum). Calculations are based on (1) the body mass, (2) the exercise type, and (3) the maximum number of repetitions one is able to perform in a single set without an additional weight (i.e. with its own body mass).
 
-[keywords: bodybuilding, calisthenics, callisthenics, fitness, gym, muscle strength, street workout]
+strengthcalc is considered deprecated in favour of [musclecalc](https://github.com/piotrbajdek/musclecalc), which has been rewritten from Fortran into Rust. Since [musclecalc](https://github.com/piotrbajdek/musclecalc) (in Rust) is where the further development occurs, strengthcalc (in Fortran) will no longer be maintained.
+
+[keywords: bodybuilding, calculator, calisthenics, callisthenics, fitness, gym, muscle strength, physical training, street workout]
 
 strengthcalc can be used by both females and males. Implemented models:
 
@@ -10,11 +12,9 @@ strengthcalc can be used by both females and males. Implemented models:
 
 – Mayhew et al. (1992) equation is used as it appears to be more accurate for the upper body (LeSuer et al. 1997; Jiménez and De Paz 2008).
 
-**2. Squats**
+**3. Squats**
 
 – Wathen (1994) equation is used as it appears to be more accurate for the lower body (LeSuer et al. 1997).
-
-strengthcalc is considered deprecated in favour of [musclecalc](https://github.com/piotrbajdek/musclecalc), which has been rewritten from Fortran into Rust. Since [musclecalc](https://github.com/piotrbajdek/musclecalc) (in Rust) is where the further development occurs, strengthcalc (in Fortran) will no longer be maintained.
 
 **References:**
 
@@ -28,44 +28,10 @@ Wathen, D. 1994. Load assignment. In: T.R. Baechle (Ed.), _Essentials of strengt
 
 # USAGE
 
-[Static links to changeable images of the _most recent_ version of strengthcalc! This may include pre-releases!]
-
 ![help-image](https://github.com/piotrbajdek/strengthcalc/blob/main/docs/images/help-image.png?raw=true)
 
 ![example-image-1](https://github.com/piotrbajdek/strengthcalc/blob/main/docs/images/example-image-1.png?raw=true)
 
-# INSTALLATION ON LINUX
+# INSTALLATION
 
-[strengthcalc](https://github.com/piotrbajdek/strengthcalc) should run smoothly on Windows and macOS, and can be built by the use of any Fortran [compiler](https://fortran-lang.org/compilers/). Yet, it is being developed and tested using GNU Fortran (gfortran) on Fedora Linux.
-
-## METHOD 1
-
-**1.** Download and unpack the strengthcalc source from GitHub:
-
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.2
-
-**2.** Then, build the program by the use of gfortran:
-
-_gfortran strengthcalc.f90 -o strengthcalc -Oz_
-
-**3a.** Install strengthcalc by copying the binary to `/usr/bin/` on most Linux distros:
-
-_sudo cp strengthcalc /usr/bin/_
-
-**3b.** On Fedora Silverblue / Kinoite:
-
-_sudo cp strengthcalc /var/usrlocal/bin/_
-
-## METHOD 2
-
-**1.** Download the binary 'strengthcalc' for Linux x86_64 from GitHub:
-
-https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.2
-
-**2.** Make the file executable:
-
-_sudo chmod +x ./strengthcalc_
-
-**3.** Install on your system as in Method 1 (3a, 3b).
-
-**4.** You may also need to install 'libgfortran' as a dependency, which library should be available in the repository of your Linux distribution.
+[strengthcalc](https://github.com/piotrbajdek/strengthcalc) should run smoothly on Windows and macOS, and can be built by the use of [Fortran Package Manager (fpm)](https://fpm.fortran-lang.org/en/index.html). Yet, it has being developed and tested on Fedora Linux. The binary 'strengthcalc' for Linux x86_64 can be downloaded [here](https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.3).
