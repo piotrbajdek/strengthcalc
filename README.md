@@ -34,4 +34,4 @@ Wathen, D. 1994. Load assignment. In: T.R. Baechle (Ed.), _Essentials of strengt
 
 # INSTALLATION
 
-[strengthcalc](https://github.com/piotrbajdek/strengthcalc) should run smoothly on Windows and macOS, and can be built by the use of [Fortran Package Manager (fpm)](https://fpm.fortran-lang.org/en/index.html). Yet, it has being developed and tested on Fedora Linux. The binary 'strengthcalc' for Linux x86_64 can be downloaded [here](https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.3).
+[strengthcalc](https://github.com/piotrbajdek/strengthcalc) should run smoothly on Windows and macOS, and can be built by the use of [Fortran Package Manager (fpm)](https://fpm.fortran-lang.org/en/index.html). Yet, it has been developed and tested on Fedora Linux. The binary 'strengthcalc' for Linux x86_64 can be downloaded [here](https://github.com/piotrbajdek/strengthcalc/releases/tag/v0.1.3).
